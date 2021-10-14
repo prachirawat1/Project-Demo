@@ -1,0 +1,25 @@
+package com.example.amazaan.controller;
+import java .util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import com.example.amazaan.model.Product;
+import com.example.amazaan.Service.ProductService.ProductServices;
+
+@RequestMapping(path = "Product")
+public class ProductController {
+	@Autowired
+	ProductServices ProductServices;
+	@PostMapping("/getAll")
+	public List<Product> getAllProduct(){
+		return ProductServices.getAllproduct();
+	}
+	
+}
+//Casual Shoes
+//Sport shoes
+//Formal Shoes
+//Heels
+//Boots
+//Sneakers

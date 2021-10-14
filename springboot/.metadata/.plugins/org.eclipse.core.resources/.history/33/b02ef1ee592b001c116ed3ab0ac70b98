@@ -1,0 +1,5 @@
+package com.example.amazaan.repository.ProductsService;
+
+public interface ProductsService {
+
+}

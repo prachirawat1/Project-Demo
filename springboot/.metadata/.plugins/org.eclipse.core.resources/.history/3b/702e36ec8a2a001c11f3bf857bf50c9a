@@ -1,0 +1,8 @@
+package com.example.amazaan.model;
+import javax.persistence.Id;
+public class Category {
+@Id
+long id;
+String name;
+
+}

@@ -1,0 +1,25 @@
+package com.example.amazaan.Service.ProductService;
+	import org.springframework.beans.factory.annotation.Autowired;
+	import org.springframework.stereotype.Service;
+	import java.util.List;
+	import com.example.amazaan.repository.ProductRepo;
+	import com.example.amazaan.repository.UserRepository;
+	import com.example.amazaan.model.Product;
+
+
+
+	@Service
+	public interface ProductServices {
+
+	@Autowired	
+	public List<Product> getAllproduct();
+		
+	
+
+		
+		
+		
+		
+	}
+
+

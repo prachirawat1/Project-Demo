@@ -1,0 +1,2 @@
+INSERT INTO product (id, added_on, category_id, image, name, price) VALUES ('1', '2021', '2', 'earphonee.png', 'earphone', '2000');
+INSERT INTO product (id, added_on, category_id, image, name, price) VALUES ('2', '2021', '2', 'earphonee.png', 'earphone', '2000');

@@ -1,0 +1,5 @@
+package com.example.amazaan.repository;
+
+public interface ProductRepo {
+
+}

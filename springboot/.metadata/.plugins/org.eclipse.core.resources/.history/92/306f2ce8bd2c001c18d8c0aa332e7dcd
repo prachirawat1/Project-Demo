@@ -1,0 +1,9 @@
+package com.example.amazaan.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.amazaan.model.Cart;
+
+public interface AddToCart extends JpaRepository<Cart, Long>  {
+
+}
